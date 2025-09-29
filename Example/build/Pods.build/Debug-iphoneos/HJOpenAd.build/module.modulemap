@@ -1,0 +1,6 @@
+framework module HJOpenAd {
+  umbrella header "HJOpenAd-umbrella.h"
+
+  export *
+  module * { export * }
+}

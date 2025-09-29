@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'Pods-HJOpenAd_Tests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-HJOpenAd_Example' in project 'Pods'
+Target 'Pods-HJOpenAd_Example' in project 'Pods'
+➜ Explicit dependency on target 'HJOpenAd' in project 'Pods'
+Target 'HJOpenAd' in project 'Pods' (no dependencies)
