@@ -43,12 +43,12 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion","Photos"
   s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
-# s.dependency 'ToBid-iOS/ToBidSDK','4.7.0'
+ #s.dependency 'ToBid-iOS/ToBidSDK','4.7.0'
   s.dependency 'ToBid-iOS/MintegralAdapter','4.7.0'
   s.dependency 'ToBid-iOS/GDTAdapter','4.6.80'
- # s.dependency 'ToBid-iOS/BaiduAdapter','4.7.0'
+  s.dependency 'ToBid-iOS/BaiduAdapter','4.7.0'
   s.dependency 'ToBid-iOS/KSAdapter','4.7.0'
   s.dependency 'ToBid-iOS/TouTiaoAdapter','4.7.0'
- # s.dependency 'ToBid-iOS/CSJMediationAdapter','4.7.0'
+  s.dependency 'ToBid-iOS/CSJMediationAdapter','4.7.0'
   s.static_framework = true
 end
