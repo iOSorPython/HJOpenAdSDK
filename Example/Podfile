@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'HJOpenAd_Example' do
+  pod 'HJOpenAdSDK', :path => '../'
+ 
+  target 'HJOpenAd_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
