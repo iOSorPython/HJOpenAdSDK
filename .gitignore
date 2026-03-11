@@ -3,7 +3,7 @@ DerivedData/
 *.ipa
 *.xcarchive
 *.framework
-*.a
+
 Pods/
 Example/Pods/
 build/
