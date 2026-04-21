@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAdSDK'
-  s.version          = '5.3.5'
+  s.version          = '4.7.3'
   s.summary          = 'ads sdk'
 
 # This description is used to generate tags and improve search results.
