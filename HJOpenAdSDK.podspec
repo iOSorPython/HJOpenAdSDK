@@ -50,5 +50,6 @@ TODO: Add long description of the pod here.
   s.dependency 'ToBid-iOS/KSAdapter','5.5.3'
   s.dependency 'ToBid-iOS/TouTiaoAdapter','5.5.3'
   s.dependency 'ToBid-iOS/CSJMediationAdapter','5.5.3'
+
   s.static_framework = true
 end
