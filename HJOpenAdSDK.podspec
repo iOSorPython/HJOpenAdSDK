@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAdSDK'
-  s.version          = '5.5.3.22'
+  s.version          = '5.5.3.24'
   s.summary          = 'ads sdk'
 
  s.static_framework = true
@@ -43,10 +43,10 @@ TODO: Add long description of the pod here.
   s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion","Photos"
   s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
   #s.dependency  'ToBid-iOS-RC','5.5.3'
-   s.dependency   'ToBid-iOS/MintegralAdapter','5.5.3'
+  # s.dependency   'ToBid-iOS/MintegralAdapter','5.5.3'
    s.dependency  'ToBid-iOS/GDTAdapter','5.5.3'
-   s.dependency  'ToBid-iOS/BaiduAdapter','5.5.3'
+  # s.dependency  'ToBid-iOS/BaiduAdapter','5.5.3'
    s.dependency  'ToBid-iOS/KSAdapter','5.5.3'
-   s.dependency  'ToBid-iOS/CSJAdapter','5.5.3'
+  # s.dependency  'ToBid-iOS/CSJAdapter','5.5.3'
 
 end
