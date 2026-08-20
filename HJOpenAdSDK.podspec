@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAdSDK'
-  s.version          = '5.5.3.24'
+  s.version          = '5.7.2.1'
   s.summary          = 'ads sdk'
 
  s.static_framework = true
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/hbokok/HJOpenAd.git', :tag => s.version.to_s }
   s.source           = { :git => 'https://github.com/iOSorPython/HJOpenAdSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'HJOpenAd/Classes/**/*'
   s.public_header_files = ['HJOpenAd/Classes/**/HJAdsOpen.h', 'HJOpenAd/Classes/**/HJAdsRequest.h', 'HJOpenAd/Classes/**/HJAdsSdkSplash.h', 'HJOpenAd/Classes/**/HJAdsSdkInterstitial.h', 'HJOpenAd/Classes/**/HJAdsSdkReward.h', 'HJOpenAd/Classes/**/HJAdsSdk.h', 'HJOpenAd/Classes/**/HJBannerView.h', 'HJOpenAd/Classes/**/HJNativeAdView.h', 'HJOpenAd/Classes/**/HJNativeAd.h', 'HJOpenAd/Classes/**/HJNativeAdsManager.h']
@@ -43,10 +43,10 @@ TODO: Add long description of the pod here.
   s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion","Photos"
   s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
   #s.dependency  'ToBid-iOS-RC','5.5.3'
-  # s.dependency   'ToBid-iOS/MintegralAdapter','5.5.3'
-   s.dependency  'ToBid-iOS/GDTAdapter','5.5.3'
-  # s.dependency  'ToBid-iOS/BaiduAdapter','5.5.3'
-   s.dependency  'ToBid-iOS/KSAdapter','5.5.3'
-  # s.dependency  'ToBid-iOS/CSJAdapter','5.5.3'
+ s.dependency 'ToBid-iOS-RC/GDTAdapter',        '5.7.2'
+ s.dependency 'ToBid-iOS-RC/BaiduAdapter',      '5.7.2'
+  s.dependency 'ToBid-iOS-RC/KSAdapter',         '5.7.2'
+  s.dependency 'ToBid-iOS-RC/CSJAdapter',        '5.7.2'
+  s.dependency 'ToBid-iOS-RC/GromoreAdapter',        '5.7.2'
 
 end
