@@ -9,7 +9,7 @@
     NSString *sdkAppId = [appId copy];
     NSArray<AWMSDKConfigure *> *configures = [sdkConfigures copy];
     dispatch_async(dispatch_get_global_queue(QOS_CLASS_DEFAULT, 0), ^{
-        [WindMillAds setupSDKWithAppId:sdkAppId sdkConfigures:configures];
+        [WindMillAds setupSDKWithAppId:sdkAppId sdkConfigures:configures completionHandler:nil];
     });
 }
 
