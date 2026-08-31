@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJOpenAdSDK'
-  s.version          = '5.7.2.1'
+  s.version          = '5.8.0'
   s.summary          = 'ads sdk'
 
  s.static_framework = true
@@ -21,7 +21,6 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hubOK' => 'huijingios@136.com' }
-  s.source           = { :git => 'https://github.com/hbokok/HJOpenAd.git', :tag => s.version.to_s }
   s.source           = { :git => 'https://github.com/iOSorPython/HJOpenAdSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
@@ -43,10 +42,10 @@ TODO: Add long description of the pod here.
   s.frameworks = "Foundation","UIKit","MobileCoreServices","CoreGraphics","Security","SystemConfiguration","CoreTelephony","AdSupport","CoreData","StoreKit","AVFoundation","MediaPlayer","CoreMedia","WebKit","Accelerate","CoreLocation","AVKit","MessageUI","QuickLook","AudioToolBox","JavaScriptCore","CoreMotion","Photos"
   s.libraries = "z","resolv.9","sqlite3","c++","c++abi"
   #s.dependency  'ToBid-iOS-RC','5.5.3'
- s.dependency 'ToBid-iOS-RC/GDTAdapter',        '5.7.2'
- s.dependency 'ToBid-iOS-RC/BaiduAdapter',      '5.7.2'
-  s.dependency 'ToBid-iOS-RC/KSAdapter',         '5.7.2'
-  s.dependency 'ToBid-iOS-RC/CSJAdapter',        '5.7.2'
-  s.dependency 'ToBid-iOS-RC/GromoreAdapter',        '5.7.2'
+ s.dependency 'ToBid-iOS-RC/GDTAdapter',        '5.8.0'
+ s.dependency 'ToBid-iOS-RC/BaiduAdapter',      '5.8.0'
+  s.dependency 'ToBid-iOS-RC/KSAdapter',         '5.8.0'
+  s.dependency 'ToBid-iOS-RC/CSJAdapter',        '5.8.0'
+  s.dependency 'ToBid-iOS-RC/GromoreAdapter',        '5.8.0'
 
 end
