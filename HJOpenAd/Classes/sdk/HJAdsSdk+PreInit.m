@@ -1,6 +1,6 @@
 #import "HJAdsSdk.h"
 
-#import <WindMillSDK/WindMillAds.h>
+#import <WindMillSDK/WindMillSDK.h>
 
 @implementation HJAdsSdk (PreInit)
 
